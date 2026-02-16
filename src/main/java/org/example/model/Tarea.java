@@ -13,7 +13,7 @@ public class Tarea {
         this.id = id;
         this.nombre = nombre;
         this.descripcion = descripcion;
-        this.estado = true;
+        this.estado = false;
     }
 
     public int getId() {
