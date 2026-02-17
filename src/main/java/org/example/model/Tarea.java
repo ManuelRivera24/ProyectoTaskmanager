@@ -53,8 +53,8 @@ public class Tarea {
         return "Tarea{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
-                ", estado=" + estado +
-                ", descripcion='" + descripcion + '\'' +
+                ", descripcion='" + descripcion +
+                ", tarea completada=" + estado + '\'' +
                 '}';
     }
 }

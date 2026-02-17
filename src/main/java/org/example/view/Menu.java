@@ -36,15 +36,20 @@ public class Menu {
                     }
                     break;
                 case 3:
-                    System.out.println("Completar (editar)");
+                    System.out.println("Completar tarea");
                     int resp = leerEntero("Digite el id de la tarea completada");
                     tareaService.completarTarea(resp);
+                    log.info("Se completó la tarea correctamente");
                     break;
                 case 4:
                     System.out.println("Eliminar");
+                    int resp2 = leerEntero("Digite el id de la tarea que desee eliminar");
+                    tareaService.eliminarTarea(resp2);
+                    log.info("Se eliminó la tarea correctamente");
                     break;
                 case 5:
-                    System.out.println("Salida");
+                    log.info("Salida de la aplicación");
+                    break;
                 default:
                     log.info("Opción inválida");
                     break;

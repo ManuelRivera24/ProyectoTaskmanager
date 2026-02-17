@@ -1,6 +1,8 @@
 package org.example.service;
 
 import org.example.exception.DatosInvalidosException;
+import org.example.exception.OperacionInvalidaException;
+import org.example.exception.TareaNoEncontradaException;
 import org.example.model.Tarea;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,7 +27,7 @@ public class TareaService {
 
     public void agregarTarea(int id, String nombre, String descripcion) {
         validaciones(id, nombre, descripcion);
-        log.info("Tarea registrada {} {} {}", id, nombre, descripcion);
+//        log.info("Tarea registrada {} {} {}", id, nombre, descripcion);
         Tarea tarea = new Tarea(id, nombre, descripcion);
         tareas.add(tarea);
         log.info("Tarea registrada con exito");
@@ -47,6 +49,21 @@ public class TareaService {
                 return;
             }
         }
-        throw new DatosInvalidosException("No existe una tarea con el ID: " + id);
+        throw new OperacionInvalidaException("No existe una tarea con el ID: " + id);
+    }
+
+    public Tarea buscarPorId(int id) {
+        for (Tarea tarea : tareas) {
+            if (tarea.getId() == id) {
+                return tarea;
+            }
+        }
+        throw new TareaNoEncontradaException("No existe una tarea con el ID: " + id);
+    }
+
+    public void eliminarTarea(int id) {
+        Tarea tarea = buscarPorId(id);
+        tareas.remove(tarea);
+//        log.info("Tarea {} eliminada correctamente", id);
     }
 }
