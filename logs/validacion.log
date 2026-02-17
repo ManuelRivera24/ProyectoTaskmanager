@@ -1,51 +1,11 @@
-2026-02-16 19:39:30.512 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 19:42:21.232 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 19:42:36.657 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 19:42:47.466 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 19:44:31.059 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 19:44:40.448 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 19:53:51.422 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 19:54:12.552 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:12:42.805 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:12:42.871 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:12:42.878 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:12:42.889 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:12:42.891 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:12:42.897 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:12:42.899 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:12:42.903 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:14:16.185 [main] WARN  org.example.service.ValidacionService - Validación fallida: id vacío o null
-2026-02-16 20:14:16.195 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:14:16.199 [main] WARN  org.example.service.ValidacionService - Validación fallida: id vacío o null
-2026-02-16 20:14:16.202 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:14:16.206 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:17:39.705 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:17:39.753 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:17:39.760 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:17:39.768 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:17:39.772 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:17:39.777 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:17:39.777 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:17:39.781 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:17:57.489 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:18:19.350 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:18:19.389 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:18:19.396 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:18:19.406 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:18:19.408 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:18:19.416 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:18:19.416 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:18:19.420 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:23:02.079 [main] WARN  org.example.service.ValidacionService - Validación fallida: id vacío o null
-2026-02-16 20:23:02.090 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:23:02.096 [main] WARN  org.example.service.ValidacionService - Validación fallida: id vacío o null
-2026-02-16 20:23:02.099 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:23:02.105 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:30:32.396 [main] WARN  org.example.service.ValidacionService - Validación fallida: id vacío o null
-2026-02-16 20:30:32.407 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:30:32.414 [main] WARN  org.example.service.ValidacionService - Validación fallida: id vacío o null
-2026-02-16 20:30:32.414 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:30:32.420 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:30:54.318 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:31:02.656 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
-2026-02-16 20:31:13.849 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:37:52.878 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:40:27.672 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:42:38.977 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:42:46.976 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:43:03.794 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:43:07.272 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:43:28.441 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:44:25.448 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:45:37.058 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:45:42.501 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente
+2026-02-16 21:45:47.000 [main] INFO  org.example.service.ValidacionService - Validando nombre de paciente

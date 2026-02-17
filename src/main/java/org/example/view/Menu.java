@@ -18,7 +18,14 @@ public class Menu {
 //            System.out.println("Seleccione una opción del menú");
 //            respuesta = scanner.nextInt();
 //            scanner.nextLine();
-            respuesta = leerEntero("Seleccione una opción del menú");
+            System.out.println(" ");
+            System.out.println("Seleccione una opción del menú");
+            System.out.println("1. Crear una tarea");
+            System.out.println("2. Listar las tareas");
+            System.out.println("3. Completar tarea");
+            System.out.println("4. Eliminar una tarea");
+            System.out.println("5. Terminar ejecución");
+            respuesta = leerEntero(" --------------------- ");
             switch (respuesta) {
                 case 1:
                     System.out.println("Crear");
